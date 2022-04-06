@@ -24,6 +24,8 @@ body{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -33,7 +35,9 @@ body{
     grid-template-columns   : 50% 50%;
 }
 
-
+.container_caixa{
+    margin: 0 6em;
+}
 .container__titulo{
     font-size: 28px;
     font-weight: 700;
@@ -45,6 +49,8 @@ body{
     padding: 1em;
     border-radius: 5px;
     display: block;
+    margin-bottom: 1em;
+
 }
 .container__botao_segundario{
     background: transparent;
@@ -59,4 +65,9 @@ body{
 .container__aviso{
     font-size: 12px;
     color: var(--cinza-segundario);
+}
+
+
+.container__imagem{
+    margin: 1em 0 2em;
 }
